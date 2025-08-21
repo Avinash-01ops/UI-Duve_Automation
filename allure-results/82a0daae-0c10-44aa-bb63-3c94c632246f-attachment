@@ -1,0 +1,15 @@
+# Page snapshot
+
+```yaml
+- img
+- img
+- text: Tasks R Reet 
+- textbox "Search"
+- text: "3"
+- img
+- img
+- img
+- img
+- button ""
+- iframe
+```

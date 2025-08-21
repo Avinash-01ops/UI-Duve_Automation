@@ -1,0 +1,190 @@
+[2025-08-21T11:25:37.677Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-21T11:25:39.019Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-21T11:25:42.212Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-21T11:25:42.273Z] [CONSOLE:WARNING] WebSocket connection to 'wss://sandbox.duve.com/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+[2025-08-21T11:25:42.656Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-21T11:25:42.745Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, logs: Array(1), measurements: Array(2)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-21T11:25:42.749Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: Failed to fetch
+[2025-08-21T11:25:42.753Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-21T11:25:43.138Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-21T11:25:44.487Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-21T11:25:44.719Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-21T11:25:44.927Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, logs: Array(1), measurements: Array(2)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-21T11:25:44.931Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-21T11:25:45.307Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-21T11:25:46.532Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-21T11:25:46.676Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-21T11:25:50.448Z] [CONSOLE:INFO] [Intercom] Launcher is disabled in settings or current page does not match display conditions
+[2025-08-21T11:25:50.733Z] [CONSOLE:ERROR] Error: <path> attribute d: Expected number, "MNaN,NaNLNaN,NaNZ".
+[2025-08-21T11:25:50.734Z] [CONSOLE:ERROR] Error: <path> attribute d: Expected number, "MNaN,NaNLNaN,NaNZ".
+[2025-08-21T11:25:50.736Z] [CONSOLE:ERROR] Error: <path> attribute d: Expected number, "MNaN,NaNLNaN,NaNZ".
+[2025-08-21T11:25:50.918Z] [CONSOLE:ERROR] Error: <rect> attribute transform: Expected transform function, "#ffffff".
+[2025-08-21T11:25:51.884Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849037)
+[2025-08-21T11:25:51.885Z] [CONSOLE:ERROR] Error: 
+Method messenger:set.locale does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849037)
+[2025-08-21T11:25:51.885Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849037)
+[2025-08-21T11:25:51.886Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.close does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849037)
+[2025-08-21T11:25:51.886Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.open does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849037)
+[2025-08-21T11:25:51.887Z] [CONSOLE:ERROR] Error: 
+Method messenger.loginUser does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-3ee89bb.js:2:849037)
+[2025-08-21T11:25:52.521Z] [INFO] navigated {"url":"https://sandbox.duve.com/tasks"}
+[2025-08-21T11:25:52.525Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-21T11:25:52.539Z] [INFO] navigated {"url":"https://sandbox.duve.com/tasks"}
+DEBUG - Target dates: From=Sun Aug 24 2025, To=Mon Aug 25 2025
+DEBUG - Trying to select date: Sun Aug 24 2025, day number: 24
+DEBUG - Analyzing calendar structure...
+DEBUG - Calendar popup visible: true
+DEBUG - Found 123 calendar day buttons
+DEBUG - Button 0: text="1", aria-label="Choose Tuesday, July 1, 2025 as your check-in date. It's available."
+DEBUG - Button 1: text="2", aria-label="Choose Wednesday, July 2, 2025 as your check-in date. It's available."
+DEBUG - Button 2: text="3", aria-label="Choose Thursday, July 3, 2025 as your check-in date. It's available."
+DEBUG - Button 3: text="4", aria-label="Choose Friday, July 4, 2025 as your check-in date. It's available."
+DEBUG - Button 4: text="5", aria-label="Choose Saturday, July 5, 2025 as your check-in date. It's available."
+DEBUG - Selector "button[class*="CalendarDay"]" found 123 elements
+DEBUG - Selector "td[class*="CalendarDay"] button" found 123 elements
+DEBUG - Selector "[class*="calendar"] button" found 0 elements
+DEBUG - Selector "button[aria-label*="Choose"]" found 123 elements
+DEBUG - Trying strategy: Simple day number
+DEBUG - Found 4 buttons with strategy: Simple day number
+DEBUG - Button 0: visible=true, enabled=true
+DEBUG - Strategy "Simple day number" failed: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('button.CalendarDay__button:has-text("24")').first()
+    - locator resolved to <button type="button" tabindex="-1" class="CalendarDay__button" aria-label="Choose Thursday, July 24, 2025 as your check-in date. It's available.">24</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button tabindex="0" type="button" class="CalendarDay__button" aria-label="Choose Thursday, August 21, 2025 as your check-in date. It's available.">21</button> from <div data-visible="true" class="CalendarMonth CalendarMonth--horizontal">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button tabindex="0" type="button" class="CalendarDay__button" aria-label="Choose Thursday, August 21, 2025 as your check-in date. It's available.">21</button> from <div data-visible="true" class="CalendarMonth CalendarMonth--horizontal">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    28 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <button tabindex="0" type="button" class="CalendarDay__button" aria-label="Choose Thursday, August 21, 2025 as your check-in date. It's available.">21</button> from <div data-visible="true" class="CalendarMonth CalendarMonth--horizontal">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+DEBUG - Trying strategy: Any button with day number
+DEBUG - Found 0 buttons with strategy: Any button with day number
+DEBUG - Trying strategy: Calendar day class
+DEBUG - Found 0 buttons with strategy: Calendar day class
+DEBUG - Trying strategy: Table cell approach
+DEBUG - Found 0 buttons with strategy: Table cell approach

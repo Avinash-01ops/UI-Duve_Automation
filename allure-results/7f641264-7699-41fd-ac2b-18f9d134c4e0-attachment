@@ -1,0 +1,225 @@
+# Page snapshot
+
+```yaml
+- img
+- img
+- text: CALENDAR R Reet 
+- textbox "Search"
+- text: "3"
+- img
+- img
+- img
+- button "List View"
+- button "Calendar View"
+- button ""
+- option "AUGUST" [selected]
+- combobox
+- button ""
+- text: Today only
+- button "Clear"
+- grid:
+  - row "":
+    - columnheader "":
+      - text: 
+      - textbox "Search rental"
+    - columnheader
+  - rowgroup:
+    - row "DQ(1)":
+      - gridcell "DQ(1)"
+      - gridcell
+  - rowgroup:
+    - row "DQ(2)":
+      - gridcell "DQ(2)"
+      - gridcell
+- grid:
+  - row "August 2025 1 Fri 2 Sat 3 Sun 4 Mon 5 Tue 6 Wed 7 Thu 8 Fri 9 Sat 10 Sun 11 Mon 12 Tue 13 Wed 14 Thu 15 Fri 16 Sat 17 Sun 18 Mon 19 Tue 20 Wed 21 Thu 22 Fri 23 Sat 24 Sun 25 Mon 26 Tue 27 Wed 28 Thu 29 Fri 30 Sat 31 Sun September 2025 1 Mon 2 Tue 3 Wed 4 Thu 5 Fri 6 Sat 7 Sun 8 Mon 9 Tue 10 Wed 11 Thu 12 Fri 13 Sat 14 Sun 15 Mon 16 Tue 17 Wed 18 Thu 19 Fri 20 Sat 21 Sun 22 Mon 23 Tue 24 Wed 25 Thu 26 Fri 27 Sat 28 Sun 29 Mon 30 Tue":
+    - columnheader "August 2025 1 Fri"
+    - columnheader "2 Sat"
+    - columnheader "3 Sun"
+    - columnheader "4 Mon"
+    - columnheader "5 Tue"
+    - columnheader "6 Wed"
+    - columnheader "7 Thu"
+    - columnheader "8 Fri"
+    - columnheader "9 Sat"
+    - columnheader "10 Sun"
+    - columnheader "11 Mon"
+    - columnheader "12 Tue"
+    - columnheader "13 Wed"
+    - columnheader "14 Thu"
+    - columnheader "15 Fri"
+    - columnheader "16 Sat"
+    - columnheader "17 Sun"
+    - columnheader "18 Mon"
+    - columnheader "19 Tue"
+    - columnheader "20 Wed"
+    - columnheader "21 Thu"
+    - columnheader "22 Fri"
+    - columnheader "23 Sat"
+    - columnheader "24 Sun"
+    - columnheader "25 Mon"
+    - columnheader "26 Tue"
+    - columnheader "27 Wed"
+    - columnheader "28 Thu"
+    - columnheader "29 Fri"
+    - columnheader "30 Sat"
+    - columnheader "31 Sun"
+    - columnheader "September 2025 1 Mon"
+    - columnheader "2 Tue"
+    - columnheader "3 Wed"
+    - columnheader "4 Thu"
+    - columnheader "5 Fri"
+    - columnheader "6 Sat"
+    - columnheader "7 Sun"
+    - columnheader "8 Mon"
+    - columnheader "9 Tue"
+    - columnheader "10 Wed"
+    - columnheader "11 Thu"
+    - columnheader "12 Fri"
+    - columnheader "13 Sat"
+    - columnheader "14 Sun"
+    - columnheader "15 Mon"
+    - columnheader "16 Tue"
+    - columnheader "17 Wed"
+    - columnheader "18 Thu"
+    - columnheader "19 Fri"
+    - columnheader "20 Sat"
+    - columnheader "21 Sun"
+    - columnheader "22 Mon"
+    - columnheader "23 Tue"
+    - columnheader "24 Wed"
+    - columnheader "25 Thu"
+    - columnheader "26 Fri"
+    - columnheader "27 Sat"
+    - columnheader "28 Sun"
+    - columnheader "29 Mon"
+    - columnheader "30 Tue"
+  - rowgroup:
+    - row:
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+  - rowgroup:
+    - row:
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+- button ""
+- iframe
+```

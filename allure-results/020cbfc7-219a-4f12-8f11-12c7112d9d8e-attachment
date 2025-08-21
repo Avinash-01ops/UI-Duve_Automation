@@ -1,0 +1,18 @@
+# Page snapshot
+
+```yaml
+- img
+- img
+- text: Tasks R Reet 
+- textbox "Search"
+- text: "3"
+- img
+- img
+- img
+- button "List View"
+- button "Calendar View"
+- text: Company Tasks Daily  Today  17 Aug 2025 Sunday 18 Aug 2025 Monday 1 Arrivals 19 Aug 2025 Tuesday 20 Aug 2025 Wednesday 21 Aug 2025 Today 22 Aug 2025 Friday 23 Aug 2025 Saturday 1 Departures 1 Cleaning Arrivals (0) Departures (0) Clean (0) General tasks (0) All Tasks (0)   
+- img
+- text: No tasks
+- button ""
+```

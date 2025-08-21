@@ -1,0 +1,22 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:node/recommended"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2021,
+		"sourceType": "script"
+	},
+	"rules": {
+		"no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+		"node/no-unsupported-features/es-syntax": "off",
+		"node/no-missing-require": "off"
+	},
+	"ignorePatterns": ["node_modules/", "src/test-results/", "playwright-report/"]
+}
+

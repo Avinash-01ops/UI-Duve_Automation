@@ -1,0 +1,9 @@
+# Ignore local credentials and auth state
+config/credentials.json
+config/credentials.js
+.auth/
+playwright-report/
+test-results/
+node_modules/
+
+

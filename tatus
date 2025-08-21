@@ -1,0 +1,19 @@
+* 29f7364 (github/main, github/HEAD) Initial commit
+* 4520cec (HEAD -> feat/task-list-view-po-allure-eslint-docker, origin/Reet's-Branch, duve-avi/feat/task-list-view-po-allure-eslint-docker, Reet's-Branch) Allure reports created
+| * c7d0aec (duve-avi/main, duve-avi/HEAD) Initial commit - project setup
+|/  
+| *   d96783e (origin/main) Merge pull request #2 from DuveTeam/Reet's-Branch
+| |\  
+| |/  
+|/|   
+* | 786440a Create room created
+* | 89c048b rooms and reservation page added
+| *   3fe8b1a Merge pull request #1 from DuveTeam/Reet's-Branch
+| |\  
+| |/  
+|/|   
+* | 947cf7f Dashboard added
+|/  
+* 6431965 (main) forgot password added
+* c5055ae login page code commit
+* c20d2fe (Reet) feat(login): add Playwright POM scaffold, 2FA handling, single-window smoke flow, headed scripts, and configs

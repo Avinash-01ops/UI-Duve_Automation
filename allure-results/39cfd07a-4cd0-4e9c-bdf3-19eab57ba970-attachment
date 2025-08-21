@@ -1,0 +1,26 @@
+# Page snapshot
+
+```yaml
+- img
+- img
+- text: Tasks R Reet 
+- textbox "Search"
+- text: "3"
+- img
+- img
+- img
+- button "List View"
+- button "Calendar View"
+- text: Company Tasks Date range
+- button "Interact with the calendar and add the check-in date for your trip.":
+  - img
+- textbox "Start Date": 2025-08-21
+- paragraph: Press the down arrow key to interact with the calendar and select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+- text: 08/21/25
+- textbox "End Date": 2025-08-22
+- paragraph: Press the down arrow key to interact with the calendar and select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+- text: 08/22/25 Arrivals (0) Departures (0) Clean (0) General tasks (0) All Tasks (0)   
+- img
+- text: No tasks
+- button ""
+```
