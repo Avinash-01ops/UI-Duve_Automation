@@ -1,0 +1,7 @@
+Navigating to Basic Details page...
+[2025-08-25T10:57:40.929Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-25T10:57:46.109Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-25T10:57:52.842Z] [CONSOLE:WARNING] [JavaScript Warning: "“duve.com” has been classified as a bounce tracker. If it does not receive user activation within the next 3,600 seconds it will have its state purged."]
+[2025-08-25T10:57:55.886Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-25T10:57:57.846Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-25T10:58:01.668Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/

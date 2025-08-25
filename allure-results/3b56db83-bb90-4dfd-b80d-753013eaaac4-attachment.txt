@@ -1,0 +1,17 @@
+Navigating to Basic Details page...
+[2025-08-25T10:58:37.755Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-25T10:58:44.688Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-25T10:58:48.820Z] [CONSOLE:WARNING] [JavaScript Warning: "“duve.com” has been classified as a bounce tracker. If it does not receive user activation within the next 3,600 seconds it will have its state purged."]
+[2025-08-25T10:58:50.929Z] [CONSOLE:ERROR] Amplitude Logger [Error]: Failed to fetch remote configuration because of error:  AbortError: The operation was aborted. 
+[2025-08-25T10:58:51.654Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-25T10:58:53.436Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-25T10:58:54.944Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-25T10:58:58.693Z] [CONSOLE:WARNING] [JavaScript Warning: "downloadable font: Glyph bbox was incorrect (glyph ids 28 85 138 200 239 435 469 485 573 575 576 579 583 591 597 601 603 611 716 719 721 722 731 749 752 754 760 763 767 768 770 774 779) (font-family: "Material-Design-Iconic-Font" style:normal weight:400 stretch:100 src index:0) source: https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0"]
+[2025-08-25T10:58:59.236Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-25T10:59:04.372Z] [CONSOLE:WARNING] [JavaScript Warning: "Unexpected value #ffffff parsing transform attribute." {file: "https://sandbox.duve.com/v.react-dom.fb0a5b66fb2e3d50cb1f.js" line: 2}]

@@ -1,0 +1,10 @@
+Error navigating to basic details: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for getByRole('button', { name: /settings/i }).or(locator('[data-testid*="settings" i]'))
+    - waiting for navigation to finish...
+    - navigated to "https://sandbox.duve.com/"
+
+    at BasicDetailsPage.navigateToBasicDetails (D:\Duve\21-08-25\UI-Duve_Automation 1\UI-Duve_Automation\src\page-objects\basic-details.page.js:35:30)
+    at BasicDetailsPage.testBasicDetailsPage (D:\Duve\21-08-25\UI-Duve_Automation 1\UI-Duve_Automation\src\page-objects\basic-details.page.js:190:41)
+    at D:\Duve\21-08-25\UI-Duve_Automation 1\UI-Duve_Automation\src\tests\regression\basic-details.spec.js:24:50
+Failed to navigate to basic details page

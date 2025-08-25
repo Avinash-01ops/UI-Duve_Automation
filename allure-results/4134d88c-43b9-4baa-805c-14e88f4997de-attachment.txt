@@ -1,0 +1,7 @@
+Direct navigation failed: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//html/body/div[1]/div/div/div/div[1]/div/div/section/div/section/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/div/div[1]') to be visible
+
+Navigation failed at step: page.waitForTimeout: Target page, context or browser has been closed
+Current URL: https://sandbox.duve.com/
+Failed to take screenshot: page.screenshot: Target page, context or browser has been closed

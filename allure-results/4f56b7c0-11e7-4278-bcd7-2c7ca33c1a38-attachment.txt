@@ -1,0 +1,23 @@
+Navigating to Basic Details page...
+[2025-08-25T10:59:36.782Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-25T10:59:39.529Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-25T10:59:41.675Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-25T10:59:44.351Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: The operation was aborted. 
+[2025-08-25T10:59:44.756Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-25T10:59:44.940Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-25T10:59:45.633Z] [CONSOLE:ERROR] [JavaScript Error: "Failed to load ‘https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js’. A ServiceWorker passed a promise to FetchEvent.respondWith() that rejected with ‘Error: no-response :: [{"url":"https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js","error":{}}]’." {file: "https://sandbox.duve.com/sw.js" line: 1}]
+[2025-08-25T10:59:45.639Z] [CONSOLE:ERROR] [JavaScript Error: "Failed to load ‘https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js’. A ServiceWorker passed a promise to FetchEvent.respondWith() that rejected with ‘Error: no-response :: [{"url":"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js","error":{}}]’." {file: "https://sandbox.duve.com/sw.js" line: 1}]
+[2025-08-25T10:59:45.642Z] [CONSOLE:ERROR] [JavaScript Error: "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js. (Reason: CORS request did not succeed). Status code: (null)."]
+[2025-08-25T10:59:45.644Z] [CONSOLE:ERROR] [JavaScript Error: "None of the “sha256” hashes in the integrity attribute match the content of the subresource at “https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js”. The computed hash is “47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=”." {file: "https://sandbox.duve.com/" line: 0}]
+[2025-08-25T10:59:45.644Z] [CONSOLE:ERROR] [JavaScript Error: "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js. (Reason: CORS request did not succeed). Status code: (null)."]
+[2025-08-25T10:59:45.646Z] [CONSOLE:ERROR] [JavaScript Error: "None of the “sha256” hashes in the integrity attribute match the content of the subresource at “https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js”. The computed hash is “47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=”." {file: "https://sandbox.duve.com/" line: 0}]
+[2025-08-25T10:59:45.960Z] [CONSOLE:ERROR] [JavaScript Error: "Failed to load ‘https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js’. A ServiceWorker passed a promise to FetchEvent.respondWith() that rejected with ‘Error: no-response :: [{"url":"https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js","error":{}}]’." {file: "https://sandbox.duve.com/sw.js" line: 1}]
+[2025-08-25T10:59:45.962Z] [CONSOLE:ERROR] [JavaScript Error: "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js. (Reason: CORS request did not succeed). Status code: (null)."]
+[2025-08-25T10:59:45.964Z] [CONSOLE:ERROR] [JavaScript Error: "None of the “sha256” hashes in the integrity attribute match the content of the subresource at “https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.min.js”. The computed hash is “47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=”." {file: "https://sandbox.duve.com/" line: 0}]
+[2025-08-25T10:59:46.193Z] [ERROR] pageerror {"message":"moment is not defined"}

@@ -29,7 +29,9 @@ class TasksPage extends BasePage {
 		this.currentDateField = this.page.locator('//*[@id="assignAndDateDateRange"]/div/div/div/div[1]');
 		this.dateCalendarPopup = this.page.locator('//*[@id="assignAndDateDateRange"]/div/div/div[2]/div/div/div[2]/div[2]/div');
 		this.calendarViewButton = this.page.locator('//*[@id="app"]/div/div/div/div[1]/div/div[2]/section/div/section/div/div[1]/div/div[1]/div/button[2]');
-		this.monthDropdown = this.page.locator('//*[@id="react-select-5--value-item"]/span[@class="_4yj72ok"]');
+		this.monthDropdown = this.page.locator('//*[@id="react-select-4--value-item"]');
+		this.previousMonthButton = this.page.locator('//*[@id="dashoard-page"]/div/div[2]/div/div[2]/div[1]/button[1]');
+		this.nextMonthButton = this.page.locator('//*[@id="dashoard-page"]/div/div[2]/div/div[2]/div[1]/button[2]');
 	}
 
 	async open() {
@@ -933,6 +935,46 @@ class TasksPage extends BasePage {
 		return months[currentDate.getMonth()];
 	}
 
+	async clickPreviousMonth() {
+		await this.previousMonthButton.click();
+		await this.page.waitForTimeout(1000); // Wait for month change
+	}
+
+	async clickNextMonth() {
+		await this.nextMonthButton.click();
+		await this.page.waitForTimeout(1000); // Wait for month change
+	}
+
+	async getPreviousMonthName(currentMonth) {
+		const months = ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 
+			'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'];
+		const currentIndex = months.indexOf(currentMonth.toUpperCase());
+		if (currentIndex === -1) return '';
+		
+		// If January, previous month is December
+		const previousIndex = currentIndex === 0 ? 11 : currentIndex - 1;
+		return months[previousIndex];
+	}
+
+	async getNextMonthName(currentMonth) {
+		const months = ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 
+			'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'];
+		const currentIndex = months.indexOf(currentMonth.toUpperCase());
+		if (currentIndex === -1) return '';
+		
+		// If December, next month is January
+		const nextIndex = currentIndex === 11 ? 0 : currentIndex + 1;
+		return months[nextIndex];
+	}
+
+	async verifyPreviousMonthButton() {
+		return await this.previousMonthButton.isVisible().catch(() => false);
+	}
+
+	async verifyNextMonthButton() {
+		return await this.nextMonthButton.isVisible().catch(() => false);
+	}
+
 	async testCalendarView() {
 		try {
 			const navigationSuccess = await this.navigateToListView();
@@ -980,6 +1022,114 @@ class TasksPage extends BasePage {
 			}
 		} catch (error) {
 			throw new Error(`Step 5 - Verify current month displayed failed: ${error.message}`);
+		}
+
+		return true;
+	}
+
+	async testCalendarViewMonthNavigation() {
+		try {
+			const navigationSuccess = await this.navigateToListView();
+			if (!navigationSuccess) {
+				throw new Error('Failed to navigate to Tasks List View');
+			}
+		} catch (error) {
+			throw new Error(`Step 1 - Navigate to Tasks List View failed: ${error.message}`);
+		}
+
+		try {
+			await this.clickCalendarViewButton();
+		} catch (error) {
+			throw new Error(`Step 2 - Click Calendar View button failed: ${error.message}`);
+		}
+
+		try {
+			const urlContainsCalendar = await this.verifyCalendarPageUrl();
+			if (!urlContainsCalendar) {
+				const currentUrl = this.page.url();
+				throw new Error(`URL does not contain "calendar". Current URL: ${currentUrl}`);
+			}
+		} catch (error) {
+			throw new Error(`Step 3 - Verify calendar URL failed: ${error.message}`);
+		}
+
+		try {
+			// Wait a bit for page to fully load after navigation
+			await this.page.waitForTimeout(2000);
+			
+			const monthDropdownVisible = await this.verifyMonthDropdownVisible();
+			if (!monthDropdownVisible) {
+				throw new Error('Month dropdown is not visible');
+			}
+		} catch (error) {
+			throw new Error(`Step 4 - Verify month dropdown visibility failed: ${error.message}`);
+		}
+
+		let currentDisplayedMonth;
+		try {
+			currentDisplayedMonth = await this.getMonthDropdownText();
+			const currentMonth = await this.getCurrentMonthName();
+			
+			if (!currentDisplayedMonth.toUpperCase().includes(currentMonth)) {
+				throw new Error(`Incorrect month displayed. Expected: "${currentMonth}", Got: "${currentDisplayedMonth}"`);
+			}
+			console.log(`✓ Correct month is displayed: ${currentDisplayedMonth}`);
+		} catch (error) {
+			throw new Error(`Step 4 (verify current month) - Verify current month displayed failed: ${error.message}`);
+		}
+
+		// Store the original month for comparison
+		const originalMonth = currentDisplayedMonth;
+
+		try {
+			// Verify previous month button is visible
+			const previousButtonVisible = await this.verifyPreviousMonthButton();
+			if (!previousButtonVisible) {
+				throw new Error('Previous month button is not visible');
+			}
+
+			// Click previous month button
+			await this.clickPreviousMonth();
+		} catch (error) {
+			throw new Error(`Step 5 - Click previous month button failed: ${error.message}`);
+		}
+
+		try {
+			// Verify month changed to previous month
+			const updatedMonth = await this.getMonthDropdownText();
+			const expectedPreviousMonth = await this.getPreviousMonthName(originalMonth);
+			
+			if (!updatedMonth.toUpperCase().includes(expectedPreviousMonth)) {
+				throw new Error(`Previous month navigation failed. Expected: "${expectedPreviousMonth}", Got: "${updatedMonth}"`);
+			}
+			console.log(`✓ Previous month navigation successful: ${originalMonth} → ${updatedMonth}`);
+		} catch (error) {
+			throw new Error(`Step 5 (verify previous month) - Verify previous month navigation failed: ${error.message}`);
+		}
+
+		try {
+			// Verify next month button is visible
+			const nextButtonVisible = await this.verifyNextMonthButton();
+			if (!nextButtonVisible) {
+				throw new Error('Next month button is not visible');
+			}
+
+			// Click next month button to return to original month
+			await this.clickNextMonth();
+		} catch (error) {
+			throw new Error(`Step 6 - Click next month button failed: ${error.message}`);
+		}
+
+		try {
+			// Verify month returned to original month
+			const finalMonth = await this.getMonthDropdownText();
+			
+			if (!finalMonth.toUpperCase().includes(originalMonth.toUpperCase())) {
+				throw new Error(`Next month navigation failed. Expected to return to: "${originalMonth}", Got: "${finalMonth}"`);
+			}
+			console.log(`✓ Next month navigation successful, returned to: ${finalMonth}`);
+		} catch (error) {
+			throw new Error(`Step 6 (verify next month) - Verify next month navigation failed: ${error.message}`);
 		}
 
 		return true;

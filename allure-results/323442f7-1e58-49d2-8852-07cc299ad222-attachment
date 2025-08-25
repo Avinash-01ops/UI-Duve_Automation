@@ -1,0 +1,36 @@
+# Page snapshot
+
+```yaml
+- img
+- button ""
+- text: New custom question
+- button " Save"
+- text: Your question
+- textbox "Your new question": Test Q1 free text
+- text: Help text
+- textbox "Extra explanation": Test Q1 help text
+- text: Include question in page
+- option "Personal Details" [selected]
+- combobox [disabled]
+- text: Field size
+- option "Long answer" [selected]
+- combobox
+- text: Limit length
+- option "140 characters" [selected]
+- combobox
+- switch [checked]
+- text: Mandatory field
+- switch [checked]
+- text: Guest answer is sensitive information  Field Match   Tooltip Test tooltip 1   Request more than one answer Adults in the reservation   Limit Question by
+- button ""
+- text: Add Condition
+- button "Clear all"
+- option "Adults (guests)" [selected]
+- combobox: Press backspace to remove Adults (guests)
+- text: Adults (guests)
+- option "Exactly" [selected]
+- combobox
+- spinbutton: "0"
+- text:   
+- button ""
+```

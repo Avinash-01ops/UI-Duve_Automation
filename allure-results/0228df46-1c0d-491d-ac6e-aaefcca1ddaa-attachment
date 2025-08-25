@@ -1,0 +1,149 @@
+# Page snapshot
+
+```yaml
+- img
+- button " Close"
+- text: Settings
+- button "General"
+- region "General": Company Info Branding Users Notification emails Extra brands Content translations Guest login
+- text: Confirmation Email
+- button "Check-in " [expanded]
+- region "Check-in ": General Basic details Marketing Payment for stay  Arrival options Check-in options Smart early check-in Custom questions Required documents E-signature Security deposit Terms and conditions Extra customization Check in portal
+- button "Guest billing"
+- region "Guest billing": Check-in Check-out Advanced
+- button "Arrival Info"
+- region "Arrival Info": Email SMS WhatsApp
+- text: Digital Spots
+- button "Communication"
+- region "Communication":
+  - text: Basic DuveAI
+  - img
+  - text: Canned responses Unanswered Chats Auto translate Motion Marketing consent
+- button "Check-out"
+- region "Check-out": Basic Guest billing  Instructions Rate and review Late check-out Extra customization
+- button "Connections"
+- region "Connections": PMS & Channel Managers OTA Messaging POS System Wellness Keys Additional fields DuveConnect Regulatory reporting
+- button "Advanced"
+- region "Connections": Rate plans Domain verification Security
+- button "Billing"
+- region "Connections": Your plan Invoice history FAQ
+- link "RN":
+  - /url: /profile
+- link "Reet":
+  - /url: /profile
+- text:  Check-in > Basic details Basic details Collect essential information from your guests by adding questions to the online check-in process. Questions that are disabled will appear under "Insight" for manual entry.
+- switch [checked] [disabled]
+- text: First Name
+- img
+- img
+- text: All guests
+- switch [checked] [disabled]
+- text: Last Name
+- img
+- img
+- text: All guests
+- switch [checked] [disabled]
+- text: Email address
+- img
+- img
+- text: All guests
+- switch [checked] [disabled]
+- text: Phone number
+- img
+- img
+- text: Booker
+- button " "
+- switch
+- text: Test?
+- img
+- text: Booker 
+- button " "
+- switch
+- text: GDPR Approval r
+- img
+- text: Booker 
+- button " "
+- switch
+- text: Checkbox Question
+- img
+- text: Booker 
+- button " "
+- switch
+- text: First name
+- img
+- text: Booker 
+- button " "
+- switch
+- text: Your new question - maya test
+- img
+- text: Booker 
+- button " "
+- switch
+- text: Food Preferences
+- img
+- text: children 
+- button " "
+- switch
+- text: Date of Birth
+- img
+- text: Booker 
+- button " "
+- switch
+- text: Nationality
+- img
+- text: Booker 
+- button " "
+- switch
+- text: Sample
+- img
+- text: Booker 
+- button " "
+- switch
+- text: Document Expiry Date
+- img
+- text: Booker 
+- button " "
+- switch
+- text: test
+- img
+- text: All guests 
+- button " "
+- switch
+- text: Your new question test
+- img
+- text: Booker 
+- button " "
+- switch
+- text: Hello Test Reet
+- img
+- text: Booker 
+- button " "
+- switch
+- text: Test Q1 free text
+- img
+- text: All adults 
+- button " "
+- switch
+- text: Test Q1 free text
+- img
+- text: All adults 
+- button "+ Add question"
+- option "Original" [selected]
+- combobox
+- button:
+  - img
+- progressbar
+- text: First name *
+- textbox "Your first name"
+- text: Last name *
+- textbox "Your last name"
+- text: Email address *
+- textbox "Your email address"
+- text: Phone number
+- img "France flag"
+- paragraph: (+33)
+- img
+- textbox "(00) 00 00 00 00"
+- text: I would like to receive special offers from The Barbie Hotel! Translated successfully
+- button ""
+```

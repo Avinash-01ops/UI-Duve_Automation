@@ -1,0 +1,4 @@
+Error in createFreeTextQuestion: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('xpath=/html/body/div[1]/div/div/div/div[1]/div/div/section/div/section/div[2]/div/div/div/div[5]/div/div[3]/div[1]/div/div[3]/div[2]/div/div[1]/div/span') to be visible
+

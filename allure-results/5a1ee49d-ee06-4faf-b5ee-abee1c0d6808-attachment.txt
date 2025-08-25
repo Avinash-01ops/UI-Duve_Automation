@@ -1,0 +1,23 @@
+Navigating to Basic Details page...
+[2025-08-25T10:59:04.309Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-25T10:59:06.216Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-25T10:59:10.579Z] [ERROR] pageerror {"message":"/sr-client-cfg.amplitude.com/config?api_key=092b5aadda498274c6fa5a9ebecb7d51&config_keys=sessionReplay&session_id=1756119429906 due to access control checks."}
+[2025-08-25T10:59:10.583Z] [CONSOLE:ERROR] Service Worker registration failed: TypeError: Script https://sandbox.duve.com/sw.js load failed
+[2025-08-25T10:59:10.588Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: Load failed
+[2025-08-25T10:59:10.741Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-25T10:59:10.913Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-25T10:59:11.956Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-25T10:59:17.251Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-25T10:59:21.457Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.

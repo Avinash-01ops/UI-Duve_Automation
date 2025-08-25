@@ -26,4 +26,17 @@ test.describe('Tasks Calendar View E2E', () => {
 			throw new Error('Calendar view test failed');
 		}
 	});
+
+	test('Dashboard -> Tasks -> Calendar View -> Previous Month and Next Month button', async ({ appPage }) => {
+		const dashboard = new DashboardPage(appPage);
+		const tasks = new TasksPage(appPage);
+
+		await dashboard.open();
+		await appPage.waitForURL(/\/dashboard/i, { timeout: 15000 }).catch(() => undefined);
+
+		const monthNavigationSuccess = await tasks.testCalendarViewMonthNavigation();
+		if (!monthNavigationSuccess) {
+			throw new Error('Calendar view month navigation test failed');
+		}
+	});
 });

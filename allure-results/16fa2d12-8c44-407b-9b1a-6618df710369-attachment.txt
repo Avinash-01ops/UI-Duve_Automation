@@ -1,0 +1,4 @@
+Error in verifyAddQuestionButton: locator.isVisible: Target page, context or browser has been closed
+Call log:
+    - checking visibility of locator('xpath=/html/body/div[2]/div/div')
+

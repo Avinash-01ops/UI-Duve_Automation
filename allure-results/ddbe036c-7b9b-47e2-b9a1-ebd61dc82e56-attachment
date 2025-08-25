@@ -1,0 +1,30 @@
+# Page snapshot
+
+```yaml
+- img
+- img
+- text: DASHBOARD R Reet 
+- textbox "Search"
+- img
+- img
+- img
+- text: Today 0 Check-ins 0 Check-outs 0 Cleaning 0 Other tasks Online check-in
+- option "August" [selected]
+- combobox
+- text: Conversion rate 0%
+- img
+- text: Incomplete Pre Checkins 25 Monday 0 26 Tuesday 0 27 Wednesday 0 Guest satisfaction
+- option "August" [selected]
+- combobox
+- text:  No details yet 0 Total average      0 reviews Facilities and Amenities 0 Our App 0 Staff 0 Completion tips Complete room's details 30 Add Wi-Fi details 31 Create check-out instructions Add short name for SMS Add "About Us" Add your phone number for guests Add team members & greeters
+- img
+- text: I Can't Do It Alone! Complete the missing details to enjoy full effectiveness Your guests' experience 2ActiveRoomsin Duve 
+- img
+- img
+- text: Confirmation Email Inactive Pre check-in 0 sent today Arrival Message Inactive Guest App 0 active
+- img
+- text: Guest App 24 total posts
+- img
+- text: Pre Scheduled messages 0 sent today Pre check-out 0 sent today
+- button ""
+```
