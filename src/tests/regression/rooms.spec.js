@@ -50,7 +50,7 @@ test.describe('Rooms E2E', () => {
 		// Verify presence in table/list best-effort
 		const listed = await rooms.isRoomListedByName(name);
 		// Do not hard-fail if property prevents creation; treat as soft check
-		console.log(`Created room: ${name}, listed: ${listed}`);
+		// Debug logging removed for clean test output
 	});
 });
 

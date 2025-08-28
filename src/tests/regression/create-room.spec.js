@@ -24,9 +24,9 @@ test.describe('Create Room E2E', () => {
 		await appPage.waitForTimeout(1200);
 		if (created) {
 			const listed = await createRoom.isListed(name);
-			console.log(`Created room: ${name}, listed: ${listed}`);
+			// Debug logging removed for clean test output
 		} else {
-			console.log('New Room modal not visible; skipping creation.');
+			// Debug logging removed for clean test output
 		}
 	});
 });

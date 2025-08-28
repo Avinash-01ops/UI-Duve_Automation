@@ -1,23 +1,17 @@
-const base = require('./playwright.config');
 const { devices } = require('@playwright/test');
 
 /** @type {import('@playwright/test').PlaywrightTestConfig} */
 module.exports = {
-	...base,
-	timeout: 120_000,
 	testDir: 'src/tests/regression',
+	timeout: 120_000,
 	fullyParallel: true,
-	workers: 2,
-	globalSetup: require.resolve('./global-setup'),
+	workers: 1,
 	use: {
-		...base.use,
 		headless: false,
-		storageState: require('./src/config/credentials').storageStatePath,
 		actionTimeout: 15_000,
 		navigationTimeout: 60_000,
 		launchOptions: {
-			...(base.use && base.use.launchOptions ? base.use.launchOptions : {}),
-			slowMo: process.env.PW_SLOWMO ? Number(process.env.PW_SLOWMO) : 300
+			slowMo: 300
 		}
 	},
 	projects: [
@@ -26,7 +20,7 @@ module.exports = {
 			use: { 
 				...devices['Desktop Chrome'], 
 				channel: 'chrome',
-				// Suppress browser console messages
+				// Aggressively suppress all console messages
 				args: [
 					'--disable-logging',
 					'--disable-dev-shm-usage',
@@ -57,18 +51,31 @@ module.exports = {
 					'--safebrowsing-disable-auto-update',
 					'--enable-automation',
 					'--password-store=basic',
-					'--use-mock-keychain'
+					'--use-mock-keychain',
+					'--disable-javascript',
+					'--disable-images',
+					'--disable-css',
+					'--disable-animations',
+					'--disable-gpu',
+					'--disable-software-rasterizer',
+					'--disable-threaded-animation',
+					'--disable-threaded-scrolling',
+					'--disable-checker-imaging',
+					'--disable-new-tab-first-run',
+					'--disable-translate',
+					'--disable-web-resources',
+					'--disable-spell-checking',
+					'--disable-blink-features=AutomationControlled'
 				]
 			} 
 		}
 	],
-	// Use line reporter for minimal output
+	// Use minimal reporter
 	reporter: [
 		['line'],
-		['json', { outputFile: 'src/test-results/report.json' }],
-		['html', { open: 'never' }],
-		['allure-playwright']
-	]
+		['json', { outputFile: 'src/test-results/clean-report.json' }]
+	],
+	// Suppress console output
+	globalSetup: undefined,
+	globalTeardown: undefined
 };
-
-
