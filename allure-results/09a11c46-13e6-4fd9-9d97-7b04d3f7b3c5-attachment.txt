@@ -1,0 +1,269 @@
+Navigating to Basic Details page...
+Navigating to: https://sandbox.duve.com/dashboard
+[2025-08-28T06:58:01.527Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-28T06:58:02.941Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-28T06:58:03.116Z] [CONSOLE:INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2
+[2025-08-28T06:58:04.907Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-28T06:58:05.111Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, logs: Array(1)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-28T06:58:05.117Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, measurements: Array(2)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-28T06:58:05.119Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-28T06:58:05.472Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-28T06:58:06.237Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-28T06:58:07.100Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-28T06:58:09.133Z] [CONSOLE:INFO] [Intercom] Launcher is disabled in settings or current page does not match display conditions
+[2025-08-28T06:58:09.896Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:58:09.898Z] [CONSOLE:ERROR] Error: 
+Method messenger:set.locale does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:58:09.899Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:58:09.899Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.close does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:58:09.900Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.open does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:58:09.900Z] [CONSOLE:ERROR] Error: 
+Method messenger.loginUser does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+Checking if dashboard loaded correctly...
+Current URL: https://sandbox.duve.com/
+Not on dashboard page, attempting to navigate again...
+[2025-08-28T06:58:14.305Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, measurements: Array(2)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-28T06:58:14.310Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-28T06:58:14.560Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-28T06:58:15.287Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-28T06:58:15.460Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-28T06:58:15.795Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, measurements: Array(2)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-28T06:58:15.797Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, logs: Array(1)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-28T06:58:15.804Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-28T06:58:15.977Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-28T06:58:16.411Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-28T06:58:16.550Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-28T06:58:18.322Z] [CONSOLE:INFO] [Intercom] Launcher is disabled in settings or current page does not match display conditions
+[2025-08-28T06:58:18.694Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:58:18.695Z] [CONSOLE:ERROR] Error: 
+Method messenger:set.locale does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:58:18.696Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:58:18.696Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.close does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:58:18.697Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.open does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:58:18.698Z] [CONSOLE:ERROR] Error: 
+Method messenger.loginUser does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+Waiting for dashboard menu...
+✓ Dashboard menu found
+[2025-08-28T06:58:19.831Z] [CONSOLE:ERROR] Error: <rect> attribute transform: Expected transform function, "#ffffff".
+[2025-08-28T06:58:21.995Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-28T06:58:21.998Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-28T06:58:22.004Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-28T06:58:24.178Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-28T06:58:24.179Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-28T06:58:24.187Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-28T06:58:26.420Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basicDetails"}
+[2025-08-28T06:58:26.421Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-28T06:58:26.427Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basicDetails"}
+✓ Navigation completed successfully
+Basic Details page navigation and verification completed

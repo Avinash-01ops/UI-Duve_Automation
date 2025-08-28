@@ -1,0 +1,8 @@
+Error in verifyAddQuestionButton: locator.waitFor: Error: strict mode violation: locator('//div[@id="popup-content-scroll"]//div[normalize-space(.)="Free text"]') resolved to 3 elements:
+    1) <div class="_dkn8e2s ">…</div> aka locator('div').filter({ hasText: /^Free text$/ }).first()
+    2) <div class="_2it0msl ">…</div> aka locator('div').filter({ hasText: /^Free text$/ }).nth(1)
+    3) <div class="_o4vrs4">Free text</div> aka getByText('Free text')
+
+Call log:
+  - waiting for locator('//div[@id="popup-content-scroll"]//div[normalize-space(.)="Free text"]') to be visible
+

@@ -1,0 +1,16 @@
+Navigating to Basic Details page...
+[2025-08-27T10:37:27.993Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-27T10:37:33.689Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T10:37:38.126Z] [CONSOLE:WARNING] [JavaScript Warning: "“duve.com” has been classified as a bounce tracker. If it does not receive user activation within the next 3,600 seconds it will have its state purged."]
+[2025-08-27T10:37:44.157Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: NetworkError when attempting to fetch resource.
+[2025-08-27T10:37:44.356Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-27T10:37:44.423Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-27T10:37:44.943Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-27T10:37:48.535Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T10:37:54.241Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/

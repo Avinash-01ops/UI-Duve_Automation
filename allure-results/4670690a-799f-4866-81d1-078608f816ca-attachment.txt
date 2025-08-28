@@ -1,0 +1,15 @@
+Error expanding question "QA date 18272725": locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//div[@class="_i7ej7mh"][normalize-space()="QA date 18272725"]/ancestor::div[contains(@class, "_1cba0g0g")]').locator('xpath=.//div[@class="_1jbkf8yx "]')
+    8 × locator resolved to <div class="_1jbkf8yx ">…</div>
+    - attempting click action
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - performing click action
+      - <html lang="en" translate="no">…</html> intercepts pointer events
+    - retrying click action
+      - waiting for element to be visible, enabled and stable
+    - element was detached from the DOM, retrying
+

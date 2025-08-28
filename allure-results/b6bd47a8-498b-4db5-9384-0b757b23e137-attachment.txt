@@ -1,0 +1,218 @@
+Navigating to Basic Details page...
+Navigating to: https://sandbox.duve.com/dashboard
+[2025-08-28T06:18:31.153Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-28T06:18:32.734Z] [CONSOLE:LOG] Faro instance creation for type Host
+Checking if dashboard loaded correctly...
+[2025-08-28T06:18:35.886Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-28T06:18:35.994Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-28T06:18:36.107Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, logs: Array(1)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-28T06:18:36.109Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, logs: Array(1), measurements: Array(2)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-28T06:18:36.121Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, measurements: Array(1)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-28T06:18:36.124Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-28T06:18:37.215Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-28T06:18:38.630Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+Current URL: https://sandbox.duve.com/
+Not on dashboard page, attempting to navigate again...
+[2025-08-28T06:18:38.814Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-28T06:18:39.120Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, measurements: Array(2)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-28T06:18:39.134Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, logs: Array(1)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-28T06:18:39.137Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-28T06:18:39.550Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-28T06:18:41.138Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-28T06:18:41.340Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-28T06:18:41.568Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, logs: Array(1), measurements: Array(2)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-28T06:18:41.576Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-28T06:18:41.970Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-28T06:18:42.751Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-28T06:18:43.591Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-28T06:18:47.680Z] [CONSOLE:INFO] [Intercom] Launcher is disabled in settings or current page does not match display conditions
+[2025-08-28T06:18:48.576Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:18:48.582Z] [CONSOLE:ERROR] Error: 
+Method messenger:set.locale does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:18:48.582Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:18:48.583Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.close does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:18:48.583Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.open does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+[2025-08-28T06:18:48.584Z] [CONSOLE:ERROR] Error: 
+Method messenger.loginUser does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-cd0b9d8.js:2:849037)
+Waiting for dashboard menu...
+✓ Dashboard menu found
+[2025-08-28T06:18:49.571Z] [CONSOLE:ERROR] Error: <rect> attribute transform: Expected transform function, "#ffffff".
+[2025-08-28T06:18:51.958Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-28T06:18:51.970Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-28T06:18:52.036Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-28T06:18:55.489Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-28T06:18:55.495Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-28T06:18:55.538Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-28T06:18:57.939Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basicDetails"}
+[2025-08-28T06:18:57.945Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-28T06:18:57.982Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basicDetails"}
+✓ Navigation completed successfully
+Starting Bed Types question creation...
+Creating bedTypes Question...
+Question Title: "QA250828114901"

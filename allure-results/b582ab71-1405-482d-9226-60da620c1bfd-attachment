@@ -1,0 +1,30 @@
+# Page snapshot
+
+```yaml
+- img
+- option "EN" [selected]:
+  - img
+  - text: EN
+- combobox
+- text: Two-step authentication To continue, please enter the 6-digit verification code sent to Your email
+- spinbutton
+- spinbutton
+- spinbutton
+- spinbutton
+- spinbutton
+- spinbutton
+- text: Don't ask again on this device
+- button "Continue" [disabled]
+- text: Didn't receive an email?
+- button "Resend"
+- text: By registering, I acknowledge Duve's
+- link "Privacy policy":
+  - /url: https://duve.com/privacy-policy/
+- text: "&"
+- link "Terms":
+  - /url: https://duve.com/terms/
+- text: .
+- button "© Duve"
+- button "Terms"
+- button "Privacy"
+```

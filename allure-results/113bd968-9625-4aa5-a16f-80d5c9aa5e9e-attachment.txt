@@ -1,0 +1,22 @@
+Navigating to Basic Details page...
+[2025-08-27T10:37:22.062Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-27T10:37:23.768Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T10:37:31.663Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: Load failed
+[2025-08-27T10:37:31.843Z] [CONSOLE:ERROR] Service Worker registration failed: TypeError: Script https://sandbox.duve.com/sw.js load failed
+[2025-08-27T10:37:31.967Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-27T10:37:32.109Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-27T10:37:33.688Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T10:37:42.770Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-27T10:37:44.917Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.

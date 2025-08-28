@@ -1,0 +1,4 @@
+Error in createGuestCategoryQuestion: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('xpath=/html/body/div[1]/div/div/div/div[1]/div/div/section/div/section/div/div[2]/div[1]/div/div[2]/div/div[1]/div/div/div[2]/div/div[2]/button')
+

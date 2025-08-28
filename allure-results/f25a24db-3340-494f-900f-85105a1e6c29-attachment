@@ -1,0 +1,14 @@
+# Page snapshot
+
+```yaml
+- img
+- img
+- text: R Reet 
+- textbox "Search"
+- img
+- img
+- img
+- img
+- button ""
+- img
+```

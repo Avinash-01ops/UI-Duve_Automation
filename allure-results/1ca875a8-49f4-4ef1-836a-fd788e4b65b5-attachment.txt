@@ -1,0 +1,164 @@
+Navigating to Basic Details page...
+[2025-08-27T07:32:31.080Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-27T07:32:32.006Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T07:32:34.510Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-27T07:32:34.547Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-27T07:32:34.761Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, logs: Array(1), measurements: Array(2)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-27T07:32:34.764Z] [CONSOLE:ERROR] Faro
+ @grafana/faro-web-sdk:transport-fetch
+ Failed sending payload to the receiver
+ {meta: Object, logs: Array(1)} TypeError: Failed to fetch
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99833
+    at o (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47786)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:48004
+    at new Promise (<anonymous>)
+    at Object.add (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:47937)
+    at t.<anonymous> (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:99592)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98188
+    at Object.next (https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:98293)
+    at https://sandbox.duve.com/v.grafana.37eac65622fbc9c2a1b7.js:1:97183
+    at new Promise (<anonymous>)
+[2025-08-27T07:32:34.772Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-27T07:32:35.185Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T07:32:36.154Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-27T07:32:36.326Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-27T07:32:38.771Z] [CONSOLE:ERROR] Error: <rect> attribute transform: Expected transform function, "#ffffff".
+[2025-08-27T07:32:39.140Z] [CONSOLE:INFO] [Intercom] Launcher is disabled in settings or current page does not match display conditions
+[2025-08-27T07:32:39.878Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849037)
+[2025-08-27T07:32:39.879Z] [CONSOLE:ERROR] Error: 
+Method messenger:set.locale does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849037)
+[2025-08-27T07:32:39.880Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849037)
+[2025-08-27T07:32:39.881Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.close does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849037)
+[2025-08-27T07:32:39.883Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.open does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849037)
+[2025-08-27T07:32:39.883Z] [CONSOLE:ERROR] Error: 
+Method messenger.loginUser does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+    at C (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:772495)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773136
+    at Array.forEach (<anonymous>)
+    at Object.run (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:773126)
+    at https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849056
+    at Array.forEach (<anonymous>)
+    at Ou (https://static.zdassets.com/web_widget/classic/latest/web-widget-main-fe1a9e5.js:2:849037)
+[2025-08-27T07:32:41.553Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-27T07:32:41.554Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-27T07:32:41.567Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-27T07:32:43.772Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-27T07:32:43.774Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-27T07:32:43.788Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-27T07:32:46.001Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basicDetails"}
+[2025-08-27T07:32:46.003Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-27T07:32:46.015Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basicDetails"}
+Navigation completed
+✓ Step 1: Navigation to Basic Details page completed
+Step 2: Opening Add Question popup and selecting Multiple Choice...
+[2025-08-27T07:32:51.558Z] [INFO] navigated {"url":"https://sandbox.duve.com/questions/create?type=multipleChoice&isBasic=1"}
+[2025-08-27T07:32:51.560Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basicDetails"}
+[2025-08-27T07:32:51.583Z] [INFO] navigated {"url":"https://sandbox.duve.com/questions/create?type=multipleChoice&isBasic=1"}
+✓ Step 2: Multiple Choice option selected
+=== DEBUGGING PAGE STRUCTURE ===
+Page Elements Count:
+  - Input fields: 4
+  - Div elements: 196
+  - Span elements: 8
+  - Button elements: 3
+Specific Classes Found:
+  - Elements with class "_1b4qb74m": 1
+  - Elements with class "_1lzqohds": 2
+Input field details:
+  Input 1: placeholder="Your new question", class="_17bxqcm", type="null"
+  Input 2: placeholder="Extra explanation", class="_17bxqcm", type="null"
+  Input 3: placeholder="null", class="null", type="checkbox"
+  Input 4: placeholder="null", class="null", type="checkbox"
+=== END DEBUGGING ===
+Taking screenshot for debugging...
+Screenshot saved as: multiple-choice-question-page-state.png
+Page Title: "Duve (Staging)"
+Page URL: https://sandbox.duve.com/questions/create?type=multipleChoice&isBasic=1
+Generated unique identifiers:
+  - Question Title: "Test QA 08272025130254"
+  - External ID: "EXTID 08272025130254"
+  - Tooltip Title: "Test Tooltip 08272025130254"
+Step 3: Inputting question title...
+  - Strategy 1 (original XPath) successful

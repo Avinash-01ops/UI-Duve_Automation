@@ -1,0 +1,4 @@
+Error navigating to question detail for "QA date 10532825": locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//div[@class="_i7ej7mh"][normalize-space()="QA date 10532825"]/ancestor::div[contains(@class, "_1cba0g0g")]').locator('xpath=.//div[@class="_1cba0g0g "]//i[@class="zmdi zmdi-chevron-right "]') to be visible
+

@@ -1,0 +1,23 @@
+# Page snapshot
+
+```yaml
+- img
+- button ""
+- text: New custom question
+- button " Save"
+- text: Your question
+- textbox "Your new question": QA date 18272725
+- text: Include question in page
+- option "Personal Details" [selected]
+- combobox
+- switch
+- text: Mandatory field
+- switch
+- text: Guest answer is sensitive information  Field Match   Tooltip   Request more than one answer   Limit Question by  QA250827172602
+- textbox "DD.MM.YYYY"
+- img
+- text: QA date 18272725
+- textbox "DD.MM.YYYY"
+- img
+- button ""
+```

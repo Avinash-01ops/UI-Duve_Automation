@@ -1,0 +1,28 @@
+Navigating to Basic Details page...
+[2025-08-27T12:54:30.072Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-27T12:54:33.367Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T12:54:39.591Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: NetworkError when attempting to fetch resource.
+[2025-08-27T12:54:40.129Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-27T12:54:43.061Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T12:54:48.192Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-27T12:54:49.472Z] [CONSOLE:WARNING] [JavaScript Warning: "downloadable font: Glyph bbox was incorrect (glyph ids 28 85 138 200 239 435 469 485 573 575 576 579 583 591 597 601 603 611 716 719 721 722 731 749 752 754 760 763 767 768 770 774 779) (font-family: "Material-Design-Iconic-Font" style:normal weight:400 stretch:100 src index:0) source: https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0"]
+[2025-08-27T12:54:50.143Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-27T12:54:56.273Z] [CONSOLE:WARNING] [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://aizmjqhzzdreoqudymtuqzhilzpr.broadcast.app.guidde.com/guidde.js" line: 2}]
+[2025-08-27T12:54:56.282Z] [CONSOLE:WARNING] [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “clipboard-write”." {file: "https://aizmjqhzzdreoqudymtuqzhilzpr.broadcast.app.guidde.com/guidde.js" line: 2}]
+[2025-08-27T12:54:56.291Z] [CONSOLE:WARNING] [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “autoplay”." {file: "https://aizmjqhzzdreoqudymtuqzhilzpr.broadcast.app.guidde.com/guidde.js" line: 2}]
+[2025-08-27T12:54:56.313Z] [CONSOLE:WARNING] [JavaScript Warning: "Feature Policy: Skipping unsupported feature name “clipboard-write”." {file: "https://aizmjqhzzdreoqudymtuqzhilzpr.broadcast.app.guidde.com/guidde.js" line: 2}]
+[2025-08-27T12:54:59.519Z] [CONSOLE:INFO] [Intercom] Launcher is disabled in settings or current page does not match display conditions
+[2025-08-27T12:55:00.286Z] [CONSOLE:WARNING] [JavaScript Warning: "Empty string passed to getElementById()." {file: "debugger eval code" line: 3693}]
+[2025-08-27T12:55:00.289Z] [CONSOLE:WARNING] [JavaScript Warning: "Empty string passed to getElementById()." {file: "debugger eval code" line: 3693}]
+[2025-08-27T12:55:00.464Z] [CONSOLE:ERROR] Error
+[2025-08-27T12:55:00.472Z] [CONSOLE:ERROR] Error
+[2025-08-27T12:55:00.486Z] [CONSOLE:ERROR] Error
+[2025-08-27T12:55:00.502Z] [CONSOLE:ERROR] Error
+[2025-08-27T12:55:00.505Z] [CONSOLE:ERROR] Error
+[2025-08-27T12:55:00.508Z] [CONSOLE:ERROR] Error

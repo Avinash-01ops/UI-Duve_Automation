@@ -1,0 +1,24 @@
+Error verifying firstName: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//input[@type="text" and @name="firstName"]') to be visible
+
+Error verifying lastName: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//input[@type="text" and @name="lastName"]') to be visible
+
+Error verifying email: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('//input[@type="email" and @name="email"]') to be visible
+
+Error verifying phone: locator.waitFor: Error: strict mode violation: locator('//span[normalize-space(.)="Phone number"]') resolved to 3 elements:
+    1) <span class="_4vsavk">Phone number</span> aka getByText('Phone number').first()
+    2) <span class="br af c3 b5 c4 b3">…</span> aka locator('span').filter({ hasText: 'Phone number' }).nth(1)
+    3) <span class="_4vsavk">Phone number</span> aka locator('[id="undefined.phone"]').getByText('Phone number')
+
+Call log:
+  - waiting for locator('//span[normalize-space(.)="Phone number"]') to be visible
+
+Error verifying mobile checkbox: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//div[@class="_1r2wujk4 "]') to be visible
+

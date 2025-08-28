@@ -1,0 +1,28 @@
+Error in createFreeTextQuestion: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//div[contains(@class,"Select-input")]//input')
+    - locator resolved to <input value="" aria-owns="" role="combobox" aria-expanded="false" aria-haspopup="false" aria-activedescendant="react-select-25--value"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="Select-placeholder">Select...</div> intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+      - waiting 100ms
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  150 × retrying click action
+        - waiting 500ms
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - <div class="Select-placeholder">Select...</div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+

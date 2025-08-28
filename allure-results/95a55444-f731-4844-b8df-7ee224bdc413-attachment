@@ -1,0 +1,19 @@
+# Page snapshot
+
+```yaml
+- img
+- img
+- text: DASHBOARD R Reet 
+- textbox "Search"
+- img
+- img
+- img
+- text: Today __ Check-ins __ Check-outs __ Cleaning __ Other tasks _____ Incomplete Pre Checkins 27 Wednesday __ 28 Thursday __ 29 Friday __ Guest satisfaction  No details yet _____ ___________ ___________ __ __ __ __ __ __ Completion tips Create check-out instructions Add short name for SMS Add "About Us" Add your phone number for guests Add team members & greeters
+- img
+- text: I Can't Do It Alone! Complete the missing details to enjoy full effectiveness Your guests' experience 0ActiveRoomsin Duve   Confirmation Email Inactive Pre check-in 0 sent today Arrival Message Inactive Guest App 0 active
+- img
+- text: Guest App 24 total posts
+- img
+- text: Pre Scheduled messages 0 sent today Pre check-out 0 sent today
+- button ""
+```

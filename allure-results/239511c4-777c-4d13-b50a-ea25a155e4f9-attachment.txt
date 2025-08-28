@@ -1,0 +1,18 @@
+Error in createMultipleChoiceQuestion: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//div[@class="_1jgo2emz "]//div[@aria-disabled="true"]')
+    - locator resolved to <div aria-owns="" tabindex="0" role="combobox" aria-disabled="true" class="Select-input" aria-expanded="false" aria-activedescendant="react-select-15--value"></div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    107 × waiting for element to be visible, enabled and stable
+        - element is not enabled
+      - retrying click action
+        - waiting 500ms
+

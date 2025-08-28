@@ -1,0 +1,57 @@
+Error navigating to question detail for "QA date 11002825": locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//div[@class="_i7ej7mh"][normalize-space()="QA date 11002825"]/ancestor::div[contains(@class, "_1cba0g0g")]').locator('xpath=.//div[@class="_1jbkf8yx "]//i[@class="zmdi zmdi-chevron-right "]')
+    7 × locator resolved to <i class="zmdi zmdi-chevron-right "></i>
+    - attempting click action
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - performing click action
+      - <html lang="en" translate="no">…</html> intercepts pointer events
+    - retrying click action
+      - waiting for element to be visible, enabled and stable
+    - element was detached from the DOM, retrying
+    - locator resolved to <i class="zmdi zmdi-chevron-right "></i>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+    - locator resolved to <i class="zmdi zmdi-chevron-right "></i>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - <html lang="en" translate="no">…</html> intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+    - locator resolved to <i class="zmdi zmdi-chevron-right "></i>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - <html lang="en" translate="no">…</html> intercepts pointer events
+  - retrying click action
+    - waiting 100ms
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+    - locator resolved to <i class="zmdi zmdi-chevron-right "></i>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - <html lang="en" translate="no">…</html> intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+

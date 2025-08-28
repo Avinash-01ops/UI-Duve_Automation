@@ -1,0 +1,10 @@
+Navigating to Basic Details page...
+[2025-08-27T10:38:21.933Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-27T10:38:25.636Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T10:38:31.742Z] [CONSOLE:WARNING] [JavaScript Warning: "“duve.com” has been classified as a bounce tracker. If it does not receive user activation within the next 3,600 seconds it will have its state purged."]
+[2025-08-27T10:38:31.988Z] [CONSOLE:ERROR] Amplitude Logger [Error]: Failed to fetch remote configuration because of error:  Error: NetworkError when attempting to fetch resource.
+[2025-08-27T10:38:32.268Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-27T10:38:32.573Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-27T10:38:34.566Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T10:38:39.519Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-27T10:38:40.827Z] [CONSOLE:WARNING] [JavaScript Warning: "downloadable font: Glyph bbox was incorrect (glyph ids 28 85 138 200 239 435 469 485 573 575 576 579 583 591 597 601 603 611 716 719 721 722 731 749 752 754 760 763 767 768 770 774 779) (font-family: "Material-Design-Iconic-Font" style:normal weight:400 stretch:100 src index:0) source: https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0"]

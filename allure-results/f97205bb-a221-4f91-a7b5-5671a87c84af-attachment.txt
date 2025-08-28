@@ -1,0 +1,16 @@
+Error in deleteQuestion: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//div[contains(@class, "_i7ej7mh") and normalize-space()="QA250827171500"]/ancestor::div[contains(@class, "_1cba0g0g")]//i[@class=\'zmdi zmdi-chevron-right \']')
+    - locator resolved to <i class="zmdi zmdi-chevron-right "></i>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - <html lang="en" translate="no">…</html> intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+
+Question deletion failed: page.screenshot: Target page, context or browser has been closed

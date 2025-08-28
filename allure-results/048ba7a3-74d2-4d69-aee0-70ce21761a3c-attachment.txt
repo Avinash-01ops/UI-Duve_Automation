@@ -1,0 +1,10 @@
+Error in createMultipleChoiceQuestion: locator.waitFor: SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@class="_1b4qb74m"]//div[@class="_1lzqohds "]//input, //div[@class="_1b4qb74m"]//div[@class="_1lzqohds "][@contenteditable="true"]' is not a valid XPath expression.
+    at Object.queryAll (<anonymous>:5875:25)
+    at InjectedScript._queryEngineAll (<anonymous>:6558:49)
+    at InjectedScript.querySelectorAll (<anonymous>:6545:30)
+    at eval (eval at evaluate (:291:30), <anonymous>:4:35)
+    at UtilityScript.evaluate (<anonymous>:293:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+Call log:
+  - waiting for locator('//div[@class="_1b4qb74m"]//div[@class="_1lzqohds "]//input, //div[@class="_1b4qb74m"]//div[@class="_1lzqohds "][@contenteditable="true"]').first() to be visible
+

@@ -1,0 +1,20 @@
+# Page snapshot
+
+```yaml
+- img
+- button ""
+- text: New custom question
+- button " Save"
+- text: Your question
+- textbox "Your new question"
+- text: Help text
+- textbox "Extra explanation": Please select your answer
+- text: Include question in page
+- option "Personal Details" [selected]
+- combobox [disabled]
+- switch
+- text: Mandatory field
+- switch
+- text: Guest answer is sensitive information  Field Match   Answers options   Tooltip   Request more than one answer   Limit Question by 
+- button ""
+```

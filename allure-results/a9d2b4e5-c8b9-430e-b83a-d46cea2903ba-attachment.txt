@@ -1,0 +1,70 @@
+Navigating to Basic Details page...
+[2025-08-27T10:40:44.915Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-27T10:40:47.185Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T10:40:51.461Z] [CONSOLE:ERROR] Amplitude Logger [Error]: Failed to fetch remote configuration because of error:  Error: Load failed
+[2025-08-27T10:40:51.465Z] [ERROR] pageerror {"message":"/sr-client-cfg.amplitude.com/config?api_key=092b5aadda498274c6fa5a9ebecb7d51&config_keys=sessionReplay&session_id=1756291028576 due to access control checks."}
+[2025-08-27T10:40:51.542Z] [CONSOLE:ERROR] Service Worker registration failed: TypeError: Script https://sandbox.duve.com/sw.js load failed
+[2025-08-27T10:40:51.546Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: Load failed
+[2025-08-27T10:40:51.558Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-27T10:40:51.888Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-27T10:40:52.700Z] [CONSOLE:LOG] Faro instance creation for type Host
+[2025-08-27T10:40:57.828Z] [CONSOLE:LOG] Service Worker registered with scope: https://sandbox.duve.com/
+[2025-08-27T10:41:00.364Z] [CONSOLE:WARNING] Amplitude Logger [Warn]: `options.defaultTracking` is set to undefined. This implicitly configures your Amplitude instance to track Page Views, Sessions, File Downloads, and Form Interactions. You can suppress this warning by explicitly setting a value to `options.defaultTracking`. The value must either be a boolean, to enable and disable all default events, or an object, for advanced configuration. For example:
+
+amplitude.init(<YOUR_API_KEY>, {
+  defaultTracking: true,
+});
+
+Visit https://www.docs.developers.amplitude.com/data/sdks/browser-2/#tracking-default-events for more details.
+[2025-08-27T10:41:06.496Z] [CONSOLE:INFO] [Intercom] Launcher is disabled in settings or current page does not match display conditions
+[2025-08-27T10:41:08.397Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+[2025-08-27T10:41:08.486Z] [CONSOLE:ERROR] Error: 
+Method messenger:set.locale does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+[2025-08-27T10:41:08.612Z] [CONSOLE:ERROR] Error: 
+Method messenger.hide does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+[2025-08-27T10:41:08.617Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.close does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+[2025-08-27T10:41:08.621Z] [CONSOLE:ERROR] Error: 
+Method messenger:on.open does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+[2025-08-27T10:41:08.626Z] [CONSOLE:ERROR] Error: 
+Method messenger.loginUser does not exist.
+
+Check out the Developer API docs to make sure you're implementing it correctly, https://developer.zendesk.com/embeddables/docs/widget/introduction
+
+[2025-08-27T10:41:09.863Z] [ERROR] pageerror {"message":"/aizmjqhzzdreoqudymtuqzhilzpr.broadcast.app.guidde.com'."}
+[2025-08-27T10:41:19.103Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-27T10:41:19.114Z] [INFO] navigated {"url":"https://sandbox.duve.com/"}
+[2025-08-27T10:41:19.212Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-27T10:41:28.973Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-27T10:41:29.089Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-27T10:41:29.193Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-27T10:41:33.926Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basicDetails"}
+[2025-08-27T10:41:33.945Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-27T10:41:34.057Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basicDetails"}
+Navigation completed
+Starting Date question creation...
+Creating Date Question...
+Question Title: "QA date 16112725"
+Question Description: "Test Q description time and date"

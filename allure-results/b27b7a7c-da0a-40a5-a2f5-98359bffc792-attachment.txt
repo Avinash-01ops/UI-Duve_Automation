@@ -1,0 +1,8 @@
+Error in createGuestCategoryQuestion: locator.waitFor: Error: strict mode violation: locator('//div[@id="popup-content-scroll"]//div[normalize-space(.)="Guest category"]') resolved to 3 elements:
+    1) <div class="_dkn8e2s ">…</div> aka locator('div').filter({ hasText: /^Guest category$/ }).first()
+    2) <div class="_2it0msl ">…</div> aka locator('div').filter({ hasText: /^Guest category$/ }).nth(1)
+    3) <div class="_o4vrs4">Guest category</div> aka getByText('Guest category')
+
+Call log:
+  - waiting for locator('//div[@id="popup-content-scroll"]//div[normalize-space(.)="Guest category"]') to be visible
+

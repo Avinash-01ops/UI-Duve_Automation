@@ -1,0 +1,181 @@
+# Page snapshot
+
+```yaml
+- img
+- button " Close"
+- text: Settings
+- button "General"
+- region "General": Company Info Branding Users Notification emails Extra brands Content translations Guest login
+- text: Confirmation Email
+- button "Check-in " [expanded]
+- region "General": General Basic details Marketing Payment for stay  Arrival options Check-in options Smart early check-in Custom questions Required documents E-signature Security deposit Terms and conditions Extra customization Check in portal
+- button "Guest billing"
+- region "Guest billing": Check-in Check-out Advanced
+- button "Arrival Info"
+- region "Arrival Info": Email SMS WhatsApp
+- text: Digital Spots
+- button "Communication"
+- region "Arrival Info":
+  - text: Basic DuveAI
+  - img
+  - text: Canned responses Unanswered Chats Auto translate Motion Marketing consent
+- button "Check-out"
+- region "Check-out": Basic Guest billing  Instructions Rate and review Late check-out Extra customization
+- button "Connections"
+- region "Check-out": PMS & Channel Managers OTA Messaging POS System Wellness Keys Additional fields DuveConnect Regulatory reporting
+- button "Advanced"
+- region "Check-out": Rate plans Domain verification Security
+- button "Billing"
+- region "Check-out": Your plan Invoice history FAQ
+- link "RN":
+  - /url: /profile
+- link "Reet":
+  - /url: /profile
+- text:  Check-in > Basic details Basic details Collect essential information from your guests by adding questions to the online check-in process. Questions that are disabled will appear under "Insight" for manual entry.
+- switch [checked] [disabled]
+- text: First Name
+- img
+- img
+- text: All guests
+- switch [checked] [disabled]
+- text: Last Name
+- img
+- img
+- text: All guests
+- switch [checked] [disabled]
+- text: Email address
+- img
+- img
+- text: All guests
+- switch [checked] [disabled]
+- text: Phone number
+- img
+- img
+- text: Booker
+- button " "
+- switch
+- text: QA date 10382825
+- img
+- text: Booker 
+- button " "
+- switch
+- text: QA date 10402825
+- img
+- text: Booker 
+- button " "
+- switch
+- text: QA date 10432825
+- img
+- text: Booker 
+- button " "
+- switch
+- text: QA date 10452825
+- img
+- text: Booker 
+- button " "
+- switch
+- text: QA date 10472825
+- img
+- text: Booker 
+- button " "
+- switch
+- text: QA date 10532825
+- img
+- text: Booker 
+- button " "
+- switch
+- text: QA date 10552825
+- img
+- text: Booker 
+- button " "
+- switch
+- text: QA date 10572825
+- img
+- text: Booker 
+- button " "
+- switch
+- text: QA date 11072825
+- img
+- text: Booker 
+- button " "
+- switch
+- text: QA date 11502825
+- img
+- text: Booker 
+- button " "
+- switch
+- text: QA date 11582825
+- img
+- text: Booker 
+- button " "
+- switch [checked]
+- text: QA freeText 12102825
+- img
+- text: Booker 
+- button " "
+- switch [checked]
+- text: QA250828121140
+- img
+- text: Booker 
+- button " "
+- switch [checked]
+- text: QA250828121321
+- img
+- text: Booker 
+- button " "
+- switch [checked]
+- text: QA250828121422
+- img
+- text: Booker 
+- button " "
+- switch [checked]
+- text: QA250828121520
+- img
+- text: Booker 
+- button " "
+- switch
+- text: QA date 12162825
+- img
+- text: Booker 
+- button "+ Add question"
+- option "Original" [selected]
+- combobox
+- button:
+  - img
+- progressbar
+- text: First name *
+- textbox "Your first name"
+- text: Last name *
+- textbox "Your last name"
+- text: Email address *
+- textbox "Your email address"
+- text: Phone number
+- img "France flag"
+- paragraph: (+33)
+- img
+- textbox "(00) 00 00 00 00"
+- text: QA freeText 12102825
+- textbox "Test Q description time and da"
+- text: QA250828121140
+- paragraph: Test Q description time and da
+- combobox
+- text: QA250828121321 QA250828121520
+- paragraph: Select
+- combobox
+- text: I would like to receive special offers from The Barbie Hotel!
+- button ""
+- text: Your guest required answer
+- button ""
+- img
+- text: Free text
+- img
+- text: Multiple choice
+- img
+- text: Date
+- img
+- text: Checkbox
+- img
+- text: Bed types
+- img
+- text: Guest category
+```

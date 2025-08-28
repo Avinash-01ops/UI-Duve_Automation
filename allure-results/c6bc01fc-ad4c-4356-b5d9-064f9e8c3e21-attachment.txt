@@ -1,0 +1,8 @@
+Error in createDateQuestion: locator.waitFor: Error: strict mode violation: locator('//div[@id="popup-content-scroll"]//div[normalize-space(.)="Date"]') resolved to 3 elements:
+    1) <div class="_dkn8e2s ">…</div> aka locator('div').filter({ hasText: /^Date$/ }).first()
+    2) <div class="_2it0msl ">…</div> aka locator('div').filter({ hasText: /^Date$/ }).nth(1)
+    3) <div class="_o4vrs4">Date</div> aka getByText('Date', { exact: true })
+
+Call log:
+  - waiting for locator('//div[@id="popup-content-scroll"]//div[normalize-space(.)="Date"]') to be visible
+

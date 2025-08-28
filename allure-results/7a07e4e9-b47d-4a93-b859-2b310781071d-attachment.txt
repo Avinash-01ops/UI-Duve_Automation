@@ -1,0 +1,47 @@
+Error in createMultipleChoiceQuestion: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//span[contains(text(),"Mandatory field")]/preceding-sibling::div//input[@type="checkbox"]')
+    - locator resolved to <input role="switch" type="checkbox" aria-checked="false"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="_1uv5my0o ">…</div> intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="_1uv5my0o ">…</div> intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  34 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="_1uv5my0o ">…</div> intercepts pointer events
+  3 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="_17t1yvzz ">…</div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_1uv5my0o ">…</div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+

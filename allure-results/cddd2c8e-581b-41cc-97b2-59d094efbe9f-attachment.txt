@@ -1,0 +1,8 @@
+Error in createMultipleChoiceQuestion: locator.waitFor: Error: strict mode violation: locator('//div[@id="popup-content-scroll"]//div[normalize-space(.)="Multiple choice"]') resolved to 3 elements:
+    1) <div class="_dkn8e2s ">…</div> aka locator('div').filter({ hasText: /^Multiple choice$/ }).first()
+    2) <div class="_2it0msl ">…</div> aka locator('div').filter({ hasText: /^Multiple choice$/ }).nth(1)
+    3) <div class="_o4vrs4">Multiple choice</div> aka getByText('Multiple choice')
+
+Call log:
+  - waiting for locator('//div[@id="popup-content-scroll"]//div[normalize-space(.)="Multiple choice"]') to be visible
+

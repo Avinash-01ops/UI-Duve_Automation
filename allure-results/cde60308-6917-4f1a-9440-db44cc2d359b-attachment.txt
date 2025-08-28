@@ -1,0 +1,4 @@
+Navigation failed: page.waitForLoadState: Target page, context or browser has been closed
+=========================== logs ===========================
+  "commit" event fired
+============================================================

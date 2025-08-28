@@ -1,0 +1,22 @@
+# Page snapshot
+
+```yaml
+- img
+- button ""
+- text: New custom question
+- button " Save"
+- text: Your question
+- textbox "Your new question": QA250827145727
+- text: Include question in page
+- option "Personal Details" [selected]
+- combobox [disabled]
+- switch
+- text: Mandatory field
+- switch
+- text: Guest answer is sensitive information  Field Match   Tooltip   Request more than one answer   Limit Question by 
+- button ""
+- text: Enable custom question
+- button "Save without enabling"
+- button "Save & Enable"
+- button ""
+```

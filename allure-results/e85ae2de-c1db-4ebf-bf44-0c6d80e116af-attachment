@@ -1,0 +1,13 @@
+# Page snapshot
+
+```yaml
+- img
+- img
+- text: 
+- textbox "Search"
+- img
+- img
+- img
+- button ""
+- img
+```

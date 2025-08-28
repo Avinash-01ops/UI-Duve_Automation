@@ -1,0 +1,21 @@
+# Page snapshot
+
+```yaml
+- img
+- button ""
+- text: New custom question
+- button " Save"
+- text: Your question
+- textbox "Your new question": QA date 12122825
+- text: Include question in page
+- option "Personal Details" [selected]
+- combobox [disabled]
+- switch
+- text: Mandatory field
+- switch
+- text: Guest answer is sensitive information  Field Match   Tooltip   Request more than one answer   Limit Question by  QA freeText 12102825
+- textbox "Test Q description time and da" [disabled]
+- text: QA250828121140
+- paragraph: Test Q description time and da
+- button ""
+```

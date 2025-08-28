@@ -1,0 +1,16 @@
+Error in createMultipleChoiceQuestion: locator.waitFor: Error: strict mode violation: locator('//div[@class="react-switch "]') resolved to 36 elements:
+    1) <div class="react-switch ">…</div> aka locator('.react-switch').first()
+    2) <div class="react-switch ">…</div> aka locator('div:nth-child(2) > ._1yfxjkoq > ._1cba0g0g > ._9n44xiq > ._mfoaxke > .react-switch')
+    3) <div class="react-switch ">…</div> aka locator('div:nth-child(3) > ._1yfxjkoq > ._1cba0g0g > ._9n44xiq > ._mfoaxke > .react-switch')
+    4) <div class="react-switch ">…</div> aka locator('div:nth-child(4) > ._1yfxjkoq > ._1cba0g0g > ._9n44xiq > ._mfoaxke > .react-switch')
+    5) <div class="react-switch ">…</div> aka locator('._16ycbgft > .react-switch').first()
+    6) <div class="react-switch ">…</div> aka locator('div:nth-child(6) > ._1yfxjkoq > ._1cba0g0g > ._9n44xiq > ._16ycbgft > .react-switch')
+    7) <div class="react-switch ">…</div> aka locator('div:nth-child(7) > ._1yfxjkoq > ._1cba0g0g > ._9n44xiq > ._16ycbgft > .react-switch')
+    8) <div class="react-switch ">…</div> aka locator('div:nth-child(8) > ._1yfxjkoq > ._1cba0g0g > ._9n44xiq > ._16ycbgft > .react-switch')
+    9) <div class="react-switch ">…</div> aka locator('div:nth-child(9) > ._1yfxjkoq > ._1cba0g0g > ._9n44xiq > ._16ycbgft > .react-switch')
+    10) <div class="react-switch ">…</div> aka locator('div:nth-child(10) > ._1yfxjkoq > ._1cba0g0g > ._9n44xiq > ._16ycbgft > .react-switch')
+    ...
+
+Call log:
+  - waiting for locator('//div[@class="react-switch "]') to be visible
+
