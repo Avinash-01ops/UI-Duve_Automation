@@ -79,25 +79,10 @@ class BasicDetailsPage extends BasePage {
 
 	async navigateToBasicDetails() {
 		try {
-			await this.page.goto(this.url, { waitUntil: 'networkidle', timeout: 30000 });
-			await this.page.waitForLoadState('networkidle', { timeout: 30000 });
-			await this.page.waitForTimeout(3000);
-			
-			await this.dashboardMenu.waitFor({ state: 'visible', timeout: 15000 });
-			await this.dashboardMenu.click();
+			// Simple navigation to dashboard (will redirect to login if not authenticated)
+			await this.page.goto('https://sandbox.duve.com/dashboard');
+			await this.page.waitForLoadState('domcontentloaded');
 			await this.page.waitForTimeout(2000);
-			
-			await this.settingsMenu.waitFor({ state: 'visible', timeout: 10000 });
-			await this.settingsMenu.click();
-			await this.page.waitForTimeout(2000);
-			
-			await this.checkInMenu.waitFor({ state: 'visible', timeout: 10000 });
-			await this.checkInMenu.click();
-			await this.page.waitForTimeout(2000);
-			
-			await this.basicDetailsMenu.waitFor({ state: 'visible', timeout: 10000 });
-			await this.basicDetailsMenu.click();
-			await this.page.waitForTimeout(3000);
 		} catch (error) {
 			// Continue with test even if navigation has issues
 		}

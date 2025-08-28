@@ -19,7 +19,8 @@ const config = {
 		headless: true,
 		trace: 'retain-on-failure',
 		screenshot: 'only-on-failure',
-		video: 'off'
+		video: 'off',
+		storageState: '.auth/state.json'
 	},
 	projects: [
 		{ name: 'chromium', use: { ...devices['Desktop Chrome'] } },

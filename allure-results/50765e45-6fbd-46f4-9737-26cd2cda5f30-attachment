@@ -1,0 +1,32 @@
+# Page snapshot
+
+```yaml
+- img
+- option "EN" [selected]:
+  - img
+  - text: EN
+- combobox
+- text: Log in Email address
+- textbox "Enter your email address"
+- text: Password
+- textbox "Enter your password"
+- text: Forgot your password?
+- button "Log in"
+- text: OR
+- img
+- text: Log in with Google
+- img
+- text: Log in with SSO
+- link "Don't have an account?Sign up":
+  - /url: https://duve.com
+- text: By logging in, I acknowledge Duve's
+- link "Privacy policy":
+  - /url: https://duve.com/privacy-policy/
+- text: "&"
+- link "Terms":
+  - /url: https://duve.com/terms/
+- text: .
+- button "© Duve"
+- button "Terms"
+- button "Privacy"
+```

@@ -18,6 +18,10 @@ echo Running Task Calendar View tests...
 npx playwright test src/tests/regression/tasks-calenderview.spec.js --config=playwright.clean.config.js --reporter=line
 
 echo.
+echo Running Custom Questions tests...
+npx playwright test src/tests/regression/custom-questions.spec.js --config=playwright.clean.config.js --reporter=line
+
+echo.
 echo Running Marketing tests...
 npx playwright test src/tests/regression/marketing.spec.js --config=playwright.clean.config.js --reporter=line
 
