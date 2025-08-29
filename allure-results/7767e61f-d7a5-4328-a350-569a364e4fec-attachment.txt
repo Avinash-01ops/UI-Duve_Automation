@@ -1,0 +1,6 @@
+[2025-08-29T10:47:54.927Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-29T10:47:58.761Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings"}
+[2025-08-29T10:48:02.929Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?subTab=companyInfo&tab=generalTab"}
+[2025-08-29T10:48:02.933Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings"}
+[2025-08-29T10:48:02.940Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?subTab=companyInfo&tab=generalTab"}
+[2025-08-29T10:48:03.275Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}

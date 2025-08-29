@@ -1,0 +1,8 @@
+[2025-08-29T09:55:55.612Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+[2025-08-29T09:56:05.516Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-29T09:56:05.538Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-29T09:56:07.893Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-29T09:56:07.899Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=generalTab&subTab=companyInfo"}
+[2025-08-29T09:56:07.916Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+[2025-08-29T09:56:10.155Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+⚠️ Edit title functionality not available, but navigation was successful

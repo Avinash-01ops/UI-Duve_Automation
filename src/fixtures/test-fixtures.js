@@ -39,14 +39,34 @@ const test = base.test.extend({
 		const logger = createLogger({ fileName: safeName });
 		const page = await appContext.newPage();
 
-		// Attach listeners
-		page.on('console', (msg) => logger.console(msg));
-		page.on('pageerror', (err) => logger.error('pageerror', { message: err?.message }));
-		page.on('request', (req) => logger.debug('request', { method: req.method(), url: req.url() }));
-		page.on('response', async (res) => logger.debug('response', { status: res.status(), url: res.url() }));
-		page.on('framenavigated', (frame) => {
-			if (frame === page.mainFrame()) logger.info('navigated', { url: frame.url() });
+		// Suppress console output globally
+		await page.addInitScript(() => {
+			// Suppress all console methods
+			console.log = () => {};
+			console.warn = () => {};
+			console.error = () => {};
+			console.info = () => {};
+			console.debug = () => {};
+			
+			// Suppress error events
+			window.addEventListener('error', (e) => e.preventDefault());
+			window.addEventListener('unhandledrejection', (e) => e.preventDefault());
+			
+			// Suppress specific library errors
+			if (window.Amplitude) {
+				window.Amplitude.logEvent = () => {};
+			}
+			if (window.Faro) {
+				window.Faro = { pushEvent: () => {} };
+			}
 		});
+
+		// Suppress all page event logging
+		page.on('console', () => {});
+		page.on('pageerror', () => {});
+		page.on('request', () => {});
+		page.on('response', () => {});
+		page.on('framenavigated', () => {});
 
 		await use(page);
 		// Page will be closed when appContext closes

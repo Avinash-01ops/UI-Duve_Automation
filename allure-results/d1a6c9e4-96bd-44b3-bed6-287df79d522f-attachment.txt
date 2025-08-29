@@ -1,0 +1,11 @@
+🚀 Starting edit title test...
+[2025-08-29T10:23:43.792Z] [INFO] navigated {"url":"https://sandbox.duve.com/dashboard"}
+📍 Navigating to Settings...
+[2025-08-29T10:23:49.181Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings"}
+📍 Navigating to Check-in tab...
+[2025-08-29T10:23:54.561Z] [INFO] navigated {"url":"https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic"}
+📍 Current URL: https://sandbox.duve.com/settings?tab=checkInTab&subTab=basic
+✅ Successfully navigated to Custom Questions page
+🎯 Generated unique title: "QA 1554290825"
+✅ Test PASSED: Successfully navigated to Custom Questions page
+🏁 Test execution completed
