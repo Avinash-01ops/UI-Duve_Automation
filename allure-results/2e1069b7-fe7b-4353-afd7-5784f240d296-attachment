@@ -1,0 +1,38 @@
+# Page snapshot
+
+```yaml
+- img
+- button ""
+- text: New check-in method
+- button " Create"
+- text:  Description Test Check-in Option   Time frames & prices * Time frames & prices
+- button ""
+- img
+- text: No time frames are set
+- button "+ Add new time frame"
+- text:  Payment options Decide your payment methods 
+- button ""
+- text: Time frame & price
+- button ""
+- text: Price type
+- option "Simple price" [selected]
+- combobox
+- text: Days
+- option "Sunday" [selected]
+- option "Monday" [selected]
+- option "Tuesday" [selected]
+- option "Wednesday" [selected]
+- option "Thursday" [selected]
+- option "Friday" [selected]
+- option "Saturday" [selected]
+- combobox
+- text: Hours Select...
+- combobox
+- text:  Please fill start time - Select...
+- combobox
+- text:  Please fill end time Cost
+- spinbutton: "134"
+- text: €  
+- button "Cancel"
+- button "Add"
+```

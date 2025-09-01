@@ -1,0 +1,41 @@
+# Page snapshot
+
+```yaml
+- img
+- button " Close"
+- text: Settings
+- button "General"
+- region "General": Company Info Branding Users Notification emails Extra brands Content translations Guest login
+- text: Confirmation Email
+- button "Check-in " [expanded]
+- region "Check-in ": General Basic details Marketing Payment for stay  Arrival options Check-in options Smart early check-in Custom questions Required documents E-signature Security deposit Terms and conditions Extra customization Check in portal
+- button "Guest billing"
+- region "Guest billing": Check-in Check-out Advanced
+- button "Arrival Info"
+- region "Arrival Info": Email SMS WhatsApp
+- text: Digital Spots
+- button "Communication"
+- region "Communication":
+  - text: Basic DuveAI
+  - img
+  - text: Canned responses Unanswered Chats Auto translate Motion Marketing consent
+- button "Check-out"
+- region "Check-out": Basic Guest billing  Instructions Rate and review Late check-out Extra customization
+- button "Connections"
+- region "Connections": PMS & Channel Managers OTA Messaging POS System Wellness Keys Additional fields DuveConnect Regulatory reporting
+- button "Advanced"
+- region "Advanced": Rate plans Domain verification Security
+- button "Billing"
+- region "Billing": Your plan Invoice history FAQ
+- link "RN":
+  - /url: /profile
+- link "Reet":
+  - /url: /profile
+- text:  Check-in > Arrival options Arrival options Customize the options guests can choose how they arrive to your properties Available arrival options
+- option "Car" [selected]
+- option "Flight" [selected]
+- option "Boat" [selected]
+- combobox
+- button ""
+- iframe
+```

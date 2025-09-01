@@ -1,0 +1,50 @@
+# Page snapshot
+
+```yaml
+- img
+- button " Close"
+- text: Settings
+- button "General"
+- region "General": Company Info Branding Users Notification emails Extra brands Content translations Guest login
+- text: Confirmation Email
+- button "Check-in " [expanded]
+- region "General": General Basic details Marketing Payment for stay  Arrival options Check-in options Smart early check-in Custom questions Required documents E-signature Security deposit Terms and conditions Extra customization Check in portal
+- button "Guest billing"
+- region "Guest billing": Check-in Check-out Advanced
+- button "Arrival Info"
+- region "Arrival Info": Email SMS WhatsApp
+- text: Digital Spots
+- button "Communication"
+- region "Arrival Info":
+  - text: Basic DuveAI
+  - img
+  - text: Canned responses Unanswered Chats Auto translate Motion Marketing consent
+- button "Check-out"
+- region "Check-out": Basic Guest billing  Instructions Rate and review Late check-out Extra customization
+- button "Connections"
+- region "Check-out": PMS & Channel Managers OTA Messaging POS System Wellness Keys Additional fields DuveConnect Regulatory reporting
+- button "Advanced"
+- region "Advanced": Rate plans Domain verification Security
+- button "Billing"
+- region "Advanced": Your plan Invoice history FAQ
+- link "RN":
+  - /url: /profile
+- link "Reet":
+  - /url: /profile
+- text:  Check-in > Smart early check-in Smart early Check-in options Generate more revenue by offering your guests the option to book an early check-in 
+- option "Original text" [selected]
+- combobox
+- button "Translate"
+- switch [checked]
+- text: Early Check In 1 
+- switch [checked]
+- text: Early check in test 
+- switch [checked]
+- text: israela 
+- switch
+- text: Test 
+- switch
+- text: Test 
+- button "+ Add new"
+- button ""
+```

@@ -1,0 +1,114 @@
+# Page snapshot
+
+```yaml
+- img
+- button " Close"
+- text: Settings
+- button "General " [expanded]
+- region "General ": Company Info Branding Users Notification emails Extra brands Content translations Guest login
+- text: Confirmation Email
+- button "Check-in"
+- region "Check-in": General Basic details Marketing Payment for stay  Arrival options Check-in options Smart early check-in Custom questions Required documents E-signature Security deposit Terms and conditions Extra customization Check in portal
+- button "Guest billing"
+- region "Guest billing": Check-in Check-out Advanced
+- button "Arrival Info"
+- region "Arrival Info": Email SMS WhatsApp
+- text: Digital Spots
+- button "Communication"
+- region "Communication":
+  - text: Basic DuveAI
+  - img
+  - text: Canned responses Unanswered Chats Auto translate Motion Marketing consent
+- button "Check-out"
+- region "Check-out": Basic Guest billing  Instructions Rate and review Late check-out Extra customization
+- button "Connections"
+- region "Connections": PMS & Channel Managers OTA Messaging POS System Wellness Keys Additional fields DuveConnect Regulatory reporting
+- button "Advanced"
+- region "Advanced": Rate plans Domain verification Security
+- button "Billing"
+- region "Billing": Your plan Invoice history FAQ
+- link "RN":
+  - /url: /profile
+- link "Reet":
+  - /url: /profile
+- text:  General > Company Info Company info Name
+- button ""
+- textbox: Reet
+- text: Short Name for SMS
+- textbox
+- text: Signature name
+- textbox
+- text: Address
+- button ""
+- textbox: 10 Rue de Buci
+- text: City
+- button ""
+- textbox: Paris
+- text: State
+- button ""
+- textbox: France
+- text: Area
+- button ""
+- textbox: Rue de Buci
+- text: Postal Code
+- textbox: "75006"
+- text: Country
+- option "France" [selected]
+- combobox
+- text: Coordinates for Map(lat,lng)
+- textbox: 48.872436005865374,2.2981289482783116
+- text: Timezone
+- option "Europe/Paris" [selected]
+- combobox
+- text: Phone
+- textbox
+- text: Email
+- textbox: rn@duve.com
+- text: Property type
+- option "Hotel" [selected]
+- combobox
+- text: Default currency
+- option "€ - Euro" [selected]
+- combobox
+- text: Website
+- textbox "http://www.company.com": http://duve.com
+- text: Date format
+- option "10/09/2025" [selected]
+- combobox
+- text: Time format
+- option "03:09 PM (12H)" [selected]
+- combobox
+- text: Preferred language
+- option "EN" [selected]:
+  - img
+  - text: EN
+- combobox
+- text: Property codes Set codes or wifi details for your property and control their visibility. Wifi details Name
+- textbox "Wifi Name"
+- text: Password
+- textbox
+- text: Wifi Always Show
+- button " Edit"
+- text: Access Codes Always Show
+- button " Edit"
+- text: Social networks Facebook
+- textbox "https://www.facebook.com"
+- text: Instagram
+- textbox "https://www.instagram.com"
+- text: Tripadvisor
+- textbox "https://www.tripadvisor.com/"
+- text: YouTube
+- textbox "https://www.youtube.com"
+- text: Vimeo
+- textbox "https://www.vimeo.com"
+- text: VK
+- textbox "https://vk.com"
+- text: About Us Add information about your company/brand. The details you add will be visible in your guest app to help increase brand awareness 
+- option "Original text" [selected]
+- combobox
+- button "Translate"
+- textbox:
+  - paragraph: Write your text...
+- button ""
+- iframe
+```
