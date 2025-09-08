@@ -12,10 +12,25 @@ module.exports = async (config) => {
 
 	// Reuse LoginPage helpers to ensure consistent login and 2FA handling
 	const loginPage = new LoginPage(page);
-	await loginPage.open();
-	await loginPage.login(creds.username, creds.password);
-	await loginPage.completeTwoFactor('121212');
-	await loginPage.waitForDashboard();
+	
+	try {
+		console.log('Starting login process...');
+		await loginPage.open();
+		console.log('Login page opened');
+		
+		await loginPage.login(creds.username, creds.password);
+		console.log('Credentials entered');
+		
+		await loginPage.completeTwoFactor('121212');
+		console.log('2FA completed');
+		
+		await loginPage.waitForDashboard();
+		console.log('Dashboard reached successfully');
+	} catch (error) {
+		console.error('Login failed:', error.message);
+		console.log('Current page URL:', page.url());
+		throw error;
+	}
 
 	// Ensure directory exists before saving state
 	try {

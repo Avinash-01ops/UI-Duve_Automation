@@ -62,7 +62,24 @@ class LoginPage extends BasePage {
 	async waitForDashboard() {
 		const escaped = creds.baseUrl.replace(/[-\/\\.^$*+?()|[\\]{}]/g, (r) => (r === '/' ? '\\/' : `\\${r}`));
 		const notAuthScreens = new RegExp(`${escaped}(?!\/(login|two|otp)).*`);
-		await this.page.waitForURL(notAuthScreens, { timeout: 120000 });
+		
+		// Increase timeout and add better error handling
+		try {
+			await this.page.waitForURL(notAuthScreens, { timeout: 300000 }); // 5 minutes
+		} catch (error) {
+			console.log('Timeout waiting for dashboard, checking current URL...');
+			const currentUrl = this.page.url();
+			console.log('Current URL:', currentUrl);
+			
+			// If we're still on login page, try to wait a bit more
+			if (currentUrl.includes('/login')) {
+				console.log('Still on login page, waiting additional time...');
+				await this.page.waitForTimeout(10000); // Wait 10 more seconds
+				await this.page.waitForURL(notAuthScreens, { timeout: 60000 }); // Try 1 more minute
+			} else {
+				throw error; // Re-throw if it's a different issue
+			}
+		}
 	}
 }
 

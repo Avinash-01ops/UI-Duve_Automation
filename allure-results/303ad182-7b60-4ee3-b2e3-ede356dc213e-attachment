@@ -1,0 +1,45 @@
+# Page snapshot
+
+```yaml
+- img
+- button " Close"
+- text: Settings
+- button "General"
+- region "General": Company Info Branding Users Notification emails Extra brands Content translations Guest login
+- text: Confirmation Email
+- button "Check-in " [expanded]
+- region "Check-in ": General Basic details Marketing Payment for stay  Arrival options Check-in options Smart early check-in Custom questions Required documents E-signature Security deposit Terms and conditions Extra customization Check in portal
+- button "Guest billing"
+- region "Guest billing": Check-in Check-out Advanced
+- button "Arrival Info"
+- region "Arrival Info": Email SMS WhatsApp
+- text: Digital Spots
+- button "Communication"
+- region "Arrival Info":
+  - text: Basic DuveAI
+  - img
+  - text: Canned responses Unanswered Chats Auto translate Motion Marketing consent
+- button "Check-out"
+- region "Check-out": Basic Guest billing  Instructions Rate and review Late check-out Extra customization
+- button "Connections"
+- region "Check-out": PMS & Channel Managers OTA Messaging POS System Wellness Keys Additional fields DuveConnect Regulatory reporting
+- button "Advanced"
+- region "Check-out": Rate plans Domain verification Security
+- button "Billing"
+- region "Check-out": Your plan Invoice history FAQ
+- link "RN":
+  - /url: /profile
+- link "Reet":
+  - /url: /profile
+- text:  Check-in > Extra customization Extra customization More customization options by booking source Verify number of guests Enabled for all  Require credit card photo scan Disabled for all  Set plane / train arrival details as mandatory Disabled for all  Hide full address until arrival message is sent Disabled for all  Turn off "Pre check-in confirmation" email to guests Enabled for all  Prevent guest from editing his personal info Disabled by default, enabled for 1 condition  Prevent guests from editing their contact info Disabled for all  Verify & collect contact info on first access to the guest area Disabled for all  Require passcode after "quick start online check in" Disabled  Confirm guest name before opening "quick start online check-in" Disabled 
+- button ""
+- text: Verify number of guests
+- button ""
+- text: By default
+- option "Enabled" [selected]
+- combobox
+- text: Disable only on these booking source Select...
+- combobox
+- button "Cancel"
+- button "Update"
+```

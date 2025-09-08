@@ -1,0 +1,69 @@
+# Page snapshot
+
+```yaml
+- img
+- button " Close"
+- text: Settings
+- button "General"
+- region "General": Company Info Branding Users Notification emails Extra brands Content translations Guest login
+- text: Confirmation Email
+- button "Check-in " [expanded]
+- region "Check-in ": General Basic details Marketing Payment for stay  Arrival options Check-in options Smart early check-in Custom questions Required documents E-signature Security deposit Terms and conditions Extra customization Check in portal
+- button "Guest billing"
+- region "Guest billing": Check-in Check-out Advanced
+- button "Arrival Info"
+- region "Arrival Info": Email SMS WhatsApp
+- text: Digital Spots
+- button "Communication"
+- region "Communication":
+  - text: Basic DuveAI
+  - img
+  - text: Canned responses Unanswered Chats Auto translate Motion Marketing consent
+- button "Check-out"
+- region "Check-out": Basic Guest billing  Instructions Rate and review Late check-out Extra customization
+- button "Connections"
+- region "Connections": PMS & Channel Managers OTA Messaging POS System Wellness Keys Additional fields DuveConnect Regulatory reporting
+- button "Advanced"
+- region "Advanced": Rate plans Domain verification Security
+- button "Billing"
+- region "Advanced": Your plan Invoice history FAQ
+- link "RN":
+  - /url: /profile
+- link "Reet":
+  - /url: /profile
+- text:  Check-in > Required documents Required documents Set which documents your guests will be asked to scan in the wizard
+- switch [checked]
+- text: Require scanning documents Booking source customization Enabled by default, disabled for 1 condition  Who should submit documents?
+- option "All guests (Adults, Children, Babies)" [selected]
+- combobox
+- text: ID Verification
+- switch
+- text: Passport verification and data match
+- img
+- switch
+- text: Face verification at hotel
+- img
+- switch
+- text: Make this step mandatory
+- switch
+- text: Hide the alert page after guests skip scanning documents 
+- option "Original text" [selected]
+- combobox
+- button "Translate"
+- text: Description
+- textbox:
+  - paragraph: Test
+- text: Managing Documents What should be done with the documents after the data has been extracted?
+- radio [checked]
+- text: "Save documents Keep the documents by sending them to an email or storing them on the server.  Send documents by email to:  rn@duve.com"
+- textbox
+- text: " Store documents on the server for: 1 Month"
+- combobox
+- text: after they are uploaded
+- img
+- img
+- text: "Note: Existing files that match the selected criteria will be permanently deleted and cannot be restored."
+- radio
+- text: Delete documents Guest documents will be deleted from the system immediately after completing the Online Check-In.
+- button ""
+```
